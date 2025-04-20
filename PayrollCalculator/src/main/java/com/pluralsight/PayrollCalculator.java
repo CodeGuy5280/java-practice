@@ -14,10 +14,17 @@ public class PayrollCalculator {
         System.out.println("Enter hours worked: ");
         double hoursWorked = scanner.nextDouble();
 
+
         System.out.println("Enter your pay rate: ");
         double payRate = scanner.nextDouble();
 
+
         double total = hoursWorked * payRate;
+        if (hoursWorked > 40){
+            total = (payRate * 1.5) * hoursWorked;
+        }else {
+            total = hoursWorked * payRate;
+        }
         System.out.println("Your gross pay is: " + total);
 
 
