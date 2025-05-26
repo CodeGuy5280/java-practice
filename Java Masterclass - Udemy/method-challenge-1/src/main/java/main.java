@@ -4,19 +4,19 @@ public class main {
 
 
         int highScorePosition = calculateHighScorePosition(1500);
-        displayHighScorePosition("ass", highScorePosition);
+        displayHighScorePosition("bill", highScorePosition);
 
         highScorePosition= calculateHighScorePosition(1000);
-        displayHighScorePosition("dick", highScorePosition);
+        displayHighScorePosition("fred", highScorePosition);
 
         highScorePosition= calculateHighScorePosition(500);
         displayHighScorePosition("dick", highScorePosition);
 
         highScorePosition= calculateHighScorePosition(100);
-        displayHighScorePosition("dick", highScorePosition);
+        displayHighScorePosition("tom", highScorePosition);
 
         highScorePosition= calculateHighScorePosition(25);
-        displayHighScorePosition("dick", highScorePosition);
+        displayHighScorePosition("frank", highScorePosition);
 
     }
 
