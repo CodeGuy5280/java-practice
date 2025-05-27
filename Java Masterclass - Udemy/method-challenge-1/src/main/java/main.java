@@ -2,20 +2,19 @@ public class main {
     public static void main(String[] args) {
 
 
-
         int highScorePosition = calculateHighScorePosition(1500);
         displayHighScorePosition("bill", highScorePosition);
 
-        highScorePosition= calculateHighScorePosition(1000);
+        highScorePosition = calculateHighScorePosition(1000);
         displayHighScorePosition("fred", highScorePosition);
 
-        highScorePosition= calculateHighScorePosition(500);
+        highScorePosition = calculateHighScorePosition(500);
         displayHighScorePosition("dick", highScorePosition);
 
-        highScorePosition= calculateHighScorePosition(100);
+        highScorePosition = calculateHighScorePosition(100);
         displayHighScorePosition("tom", highScorePosition);
 
-        highScorePosition= calculateHighScorePosition(25);
+        highScorePosition = calculateHighScorePosition(25);
         displayHighScorePosition("frank", highScorePosition);
 
     }
